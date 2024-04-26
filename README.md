@@ -1,6 +1,6 @@
-# api_final_yatube
+# Api_user_reviews
 ## Описание:
-Проект YaMDb собирает отзывы пользователей на различные произведения.
+Проект Api_user_reviews собирает отзывы пользователей на различные произведения.
 
 ## Технологии:
 - Python 3.7
@@ -11,7 +11,7 @@
 ## Как запустить проект:
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone https://github.com/DanSmirnoff/api_yamdb.git
+git clone https://github.com/KonstantinSKS/api_user_reviews.git
 ```
 ```
 cd api_yamdb
