@@ -3,7 +3,7 @@
 Проект Api_user_reviews собирает отзывы пользователей на различные произведения.
 
 ## Технологии:
-- Python 3.7
+- Python 3.9
 - Django 3.2
 - djangorestframework
 - JWT
@@ -18,25 +18,25 @@ cd api_yamdb
 ```
 Cоздать и активировать виртуальное окружение:
 ```
-python3 -m venv env
+python -m venv env
 ```
 ```
-source env/bin/activate
+source venv/Scripts/activate
 ```
 Установить зависимости из файла requirements.txt:
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 ```
 pip install -r requirements.txt
 ```
 Выполнить миграции:
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 Запустить проект:
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 После запуска сервера документация к API будет доступна по ссылке:
